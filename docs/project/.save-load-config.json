@@ -1,0 +1,12 @@
+{
+  "projectName": "duckmath.github.io-main",
+  "projectType": "generic",
+  "description": "Software development project",
+  "sessionMaxLines": 300,
+  "jsonMaxLines": 400,
+  "installGitHooks": true,
+  "deployed": "2025-10-02T06:46:47.874Z",
+  "version": "2.0.0",
+  "deployer": "genie",
+  "basedOn": "proven-implementation-patterns"
+}

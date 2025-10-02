@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-10-02",
+    "project": "duckmath.github.io-main",
+    "description": "Project with save/load functionality"
+  },
+  "quickCommands": {
+    "save": {
+      "description": "Save project state and update tracking",
+      "actions": [
+        "Append current state to docs/project/session-context.md",
+        "Update todo.json with timestamp and progress",
+        "Update projects.json with status",
+        "Auto-archive session-context.md when > 300 lines",
+        "Display summary of changes saved"
+      ],
+      "command": "npm run save"
+    },
+    "load": {
+      "description": "Load and display project state",
+      "actions": [
+        "Show current git branch and changes",
+        "Display session handoff notes",
+        "List high-priority tasks",
+        "Show project configuration status",
+        "Display project-specific features"
+      ],
+      "command": "npm run load"
+    }
+  }
+}
